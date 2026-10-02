@@ -1,0 +1,6 @@
+{
+  "name": "Mitra Indonesia Dentist - Klinik Gigi Modern Jakarta",
+  "description": "Klinik gigi modern dan terpercaya di Pondok Pinang, Kebayoran Lama, Jakarta Selatan. Layanan dental scaling, bleaching, tambal gigi, dan perawatan gigi profesional.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
