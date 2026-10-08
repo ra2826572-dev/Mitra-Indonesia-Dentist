@@ -95,7 +95,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="lg:col-span-6 relative">
               <div className="rounded-2xl overflow-hidden shadow-lg border border-slate-200 aspect-4/3 bg-slate-100">
                 <img
-                  src="/src/assets/images/dental_consultation_1790943309754.jpg"
+                  src="/images/dental_consultation_1790943309754.jpg"
                   alt="Suasana Klinik Mitra Indonesia Dentist"
                   className="w-full h-full object-cover"
                 />
