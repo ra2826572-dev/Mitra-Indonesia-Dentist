@@ -92,7 +92,7 @@ export const Hero: React.FC<HeroProps> = ({ currentLang, onBookClick, onExploreS
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-teal-950/10 border border-slate-200/90 bg-slate-100 aspect-16/11 group">
               <img
-                src="/src/assets/images/hero_dental_clinic_1790943270925.jpg"
+                src="/images/hero_dental_clinic_1790943270925.jpg"
                 alt="Mitra Indonesia Dentist - Ruang Perawatan dan Klinik Modern di Pondok Pinang"
                 className="w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500 ease-out"
                 referrerPolicy="no-referrer"

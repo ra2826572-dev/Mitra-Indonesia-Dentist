@@ -32,7 +32,7 @@ export const INITIAL_SERVICES: DentalService[] = [
       'Freshens breath and ensures optimal oral biome',
       'Minimally invasive ultrasonic vibration',
     ],
-    image: '/src/assets/images/dental_treatment_room_1790943285825.jpg',
+    image: '/images/dental_treatment_room_1790943285825.jpg',
   },
   {
     id: 'teeth-whitening',
@@ -58,7 +58,7 @@ export const INITIAL_SERVICES: DentalService[] = [
       'Low-sensitivity formulation with desensitizing polish',
       'Significant boost in natural smile confidence',
     ],
-    image: '/src/assets/images/dental_consultation_1790943309754.jpg',
+    image: '/images/dental_consultation_1790943309754.jpg',
   },
   {
     id: 'dental-fillings',
@@ -84,7 +84,7 @@ export const INITIAL_SERVICES: DentalService[] = [
       '100% mercury-free, biocompatible composite resin',
       'Strong adhesive light-cure polymerization',
     ],
-    image: '/src/assets/images/dental_care_procedure_1790943321722.jpg',
+    image: '/images/dental_care_procedure_1790943321722.jpg',
   },
   {
     id: 'dental-checkups',
@@ -110,7 +110,7 @@ export const INITIAL_SERVICES: DentalService[] = [
       'Empathetic guidance on home hygiene and preventative care',
       'Transparent treatment roadmap tailored to your comfort',
     ],
-    image: '/src/assets/images/hero_dental_clinic_1790943270925.jpg',
+    image: '/images/hero_dental_clinic_1790943270925.jpg',
   },
   {
     id: 'toothache-consultation',
@@ -136,7 +136,7 @@ export const INITIAL_SERVICES: DentalService[] = [
       'Conservative preservation options whenever feasible',
       'Priority scheduling for urgent distress',
     ],
-    image: '/src/assets/images/dental_treatment_room_1790943285825.jpg',
+    image: '/images/dental_treatment_room_1790943285825.jpg',
   },
   {
     id: 'general-dentistry',
@@ -162,7 +162,7 @@ export const INITIAL_SERVICES: DentalService[] = [
       'Uncompromising international autoclave sterilization protocols',
       'Practical coaching on daily preventive oral hygiene',
     ],
-    image: '/src/assets/images/dental_care_procedure_1790943321722.jpg',
+    image: '/images/dental_care_procedure_1790943321722.jpg',
   },
   {
     id: 'childrens-dental-care',
@@ -188,7 +188,7 @@ export const INITIAL_SERVICES: DentalService[] = [
       'Continuous monitoring of primary to permanent tooth eruption',
       'Patient, cheerful clinic atmosphere for children and parents',
     ],
-    image: '/src/assets/images/dental_consultation_1790943309754.jpg',
+    image: '/images/dental_consultation_1790943309754.jpg',
   },
 ];
 
@@ -198,7 +198,7 @@ export const INITIAL_GALLERY: GalleryItem[] = [
     titleId: 'Ruang Perawatan Utama & Dental Chair Modern',
     titleEn: 'Primary Dental Operatory & Modern Dental Chair',
     category: 'treatment',
-    imageUrl: '/src/assets/images/dental_treatment_room_1790943285825.jpg',
+    imageUrl: '/images/dental_treatment_room_1790943285825.jpg',
     captionId: 'Ruang perawatan ergonomis dengan pencahayaan LED bedah steril dan ventilasi sirkulasi udara bersih.',
     captionEn: 'Ergonomic treatment suite featuring calibrated surgical LED lighting and clean air displacement.',
   },
@@ -207,7 +207,7 @@ export const INITIAL_GALLERY: GalleryItem[] = [
     titleId: 'Lobi Resepsionis & Ruang Tunggu Nyaman',
     titleEn: 'Reception Lounge & Serene Waiting Area',
     category: 'interior',
-    imageUrl: '/src/assets/images/hero_dental_clinic_1790943270925.jpg',
+    imageUrl: '/images/hero_dental_clinic_1790943270925.jpg',
     captionId: 'Suasana tenang dengan konsep modern minimalis dan interior bertema teal untuk meredakan rasa cemas.',
     captionEn: 'Calming architectural ambiance with modern minimalist accents in teal and white to alleviate waiting anxiety.',
   },
@@ -216,7 +216,7 @@ export const INITIAL_GALLERY: GalleryItem[] = [
     titleId: 'Ruang Konsultasi Pasien Personal',
     titleEn: 'Private Patient Consultation Lounge',
     category: 'consultation',
-    imageUrl: '/src/assets/images/dental_consultation_1790943309754.jpg',
+    imageUrl: '/images/dental_consultation_1790943309754.jpg',
     captionId: 'Area konsultasi privat tempat dokter menjelaskan rencana perawatan dan mendengar kebutuhan pasien.',
     captionEn: 'Private space where dentists detail individualized treatment options and address patient queries.',
   },
@@ -225,7 +225,7 @@ export const INITIAL_GALLERY: GalleryItem[] = [
     titleId: 'Standar Sterilisasi Instrumen Medis',
     titleEn: 'Medical Instrument Autoclave & Sterility Suite',
     category: 'equipment',
-    imageUrl: '/src/assets/images/dental_care_procedure_1790943321722.jpg',
+    imageUrl: '/images/dental_care_procedure_1790943321722.jpg',
     captionId: 'Setiap instrumen dibersihkan secara ultrasonik dan disterilkan dalam kemasan segel individual.',
     captionEn: 'Every clinical instrument undergoes ultrasonic cleaning and individual sealed sterilization.',
   },
@@ -257,7 +257,7 @@ export const INITIAL_DENTIST: DentistProfile = {
     'Tim dokter gigi di Mitra Indonesia Dentist berdedikasi memberikan perawatan gigi komprehensif dengan pendekatan yang ramah, komunikatif, dan teliti. Kami percaya bahwa perawatan gigi berkualitas dimulai dari mendengarkan kekhawatiran pasien, memberikan penjelasan yang jujur tanpa membebani prosedur yang tidak perlu, serta memastikan setiap tindakan berlangsung senyaman mungkin.',
   bioEn:
     'Our dental practitioners at Mitra Indonesia Dentist are dedicated to providing compassionate, thorough dental care. We believe quality oral healthcare starts by genuinely listening to each patient, communicating clear transparent treatment steps without unneeded procedures, and ensuring every session is gentle and stress-free.',
-  image: '/src/assets/images/dentist_doctor_portrait_1790943298653.jpg',
+  image: '/images/dentist_doctor_portrait_1790943298653.jpg',
   scheduleId: 'Senin s/d Minggu: 09.00 – 21.00 WIB (Sesuai Konfirmasi Janji Temu)',
   scheduleEn: 'Monday to Sunday: 9:00 AM – 9:00 PM WIB (Subject to Appointment Confirmation)',
   specialtiesId: [
@@ -338,7 +338,7 @@ export const INITIAL_REVIEWS: PatientReview[] = [
     treatmentTagId: 'Konsultasi Sakit Gigi Akut',
     treatmentTagEn: 'Acute Toothache Relief',
     commentId:
-      'Gigi belakang berdenyut hebat malam hari, langsung kontak WhatsApp klinik dan dibantu dapat slot sore. Penanganannya cepat, tepat sasaran, dan rasa sakit langsung reda. Terima kasih banyak tim Mitra Indonesia Dentist!',
+      'Gigi geraham kelima berdenyut hebat malam hari, langsung kontak WhatsApp klinik dan dibantu dapat slot sore. Penanganannya cepat, tepat sasaran, dan rasa sakit langsung reda. Terima kasih banyak tim Mitra Indonesia Dentist!',
     commentEn:
       'Severe throbbing back toothache. Contacted their WhatsApp and was accommodated promptly. The treatment was accurate and the pain subsided immediately. Much gratitude to the team!',
     verified: true,

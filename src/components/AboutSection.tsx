@@ -55,7 +55,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ currentLang, onBookC
           <div className="lg:col-span-6 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-lg border border-slate-200/90 aspect-4/3 bg-slate-100">
               <img
-                src="/src/assets/images/dental_consultation_1790943309754.jpg"
+                src="/images/dental_consultation_1790943309754.jpg"
                 alt="Lobi Konsultasi Pasien Mitra Indonesia Dentist"
                 className="w-full h-full object-cover"
                 loading="lazy"

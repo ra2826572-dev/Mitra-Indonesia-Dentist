@@ -13,6 +13,10 @@ const DB_FILE = path.join(DATA_DIR, 'db.json');
 
 app.use(express.json());
 
+// Robust static file serving for images and public assets
+app.use('/images', express.static(path.join(__dirname, 'public/images')));
+app.use(express.static(path.join(__dirname, 'public')));
+
 // Ensure data folder and file exists
 if (!fs.existsSync(DATA_DIR)) {
   fs.mkdirSync(DATA_DIR, { recursive: true });
@@ -211,7 +215,8 @@ app.post('/api/contact', (req: Request, res: Response) => {
 });
 
 async function startServer() {
-  const isProd = process.env.NODE_ENV === 'production';
+  const distExists = fs.existsSync(path.join(__dirname, 'dist', 'index.html'));
+  const isProd = process.env.NODE_ENV === 'production' || distExists;
 
   if (!isProd) {
     // Vite middleware in dev
