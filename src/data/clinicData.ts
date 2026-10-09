@@ -110,7 +110,7 @@ export const INITIAL_SERVICES: DentalService[] = [
       'Empathetic guidance on home hygiene and preventative care',
       'Transparent treatment roadmap tailored to your comfort',
     ],
-    image: '/images/hero_dental_clinic_1790943270925.jpg',
+    image: '/images/dental_checkups_clinical_1791463697772.jpg',
   },
   {
     id: 'toothache-consultation',
@@ -136,7 +136,7 @@ export const INITIAL_SERVICES: DentalService[] = [
       'Conservative preservation options whenever feasible',
       'Priority scheduling for urgent distress',
     ],
-    image: '/images/dental_treatment_room_1790943285825.jpg',
+    image: '/images/toothache_emergency_1791463725992.jpg',
   },
   {
     id: 'general-dentistry',
@@ -162,7 +162,7 @@ export const INITIAL_SERVICES: DentalService[] = [
       'Uncompromising international autoclave sterilization protocols',
       'Practical coaching on daily preventive oral hygiene',
     ],
-    image: '/images/dental_care_procedure_1790943321722.jpg',
+    image: '/images/general_dentistry_preventive_1791463741034.jpg',
   },
   {
     id: 'childrens-dental-care',
@@ -188,7 +188,7 @@ export const INITIAL_SERVICES: DentalService[] = [
       'Continuous monitoring of primary to permanent tooth eruption',
       'Patient, cheerful clinic atmosphere for children and parents',
     ],
-    image: '/images/dental_consultation_1790943309754.jpg',
+    image: '/images/children_dental_care_friendly_1791463712994.jpg',
   },
 ];
 

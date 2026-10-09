@@ -45,19 +45,14 @@ function setStored<T>(key: string, value: T): void {
   }
 }
 
-// Initial seed
 export function initializeStorage(): void {
+  // Always purge stale cached items to ensure all latest photos load
+  localStorage.removeItem(STORAGE_KEYS.SERVICES);
+  localStorage.removeItem(STORAGE_KEYS.GALLERY);
+  localStorage.removeItem(STORAGE_KEYS.DENTIST);
+
   if (!localStorage.getItem(STORAGE_KEYS.APPOINTMENTS)) {
     setStored(STORAGE_KEYS.APPOINTMENTS, SEED_APPOINTMENTS);
-  }
-  if (!localStorage.getItem(STORAGE_KEYS.SERVICES)) {
-    setStored(STORAGE_KEYS.SERVICES, INITIAL_SERVICES);
-  }
-  if (!localStorage.getItem(STORAGE_KEYS.GALLERY)) {
-    setStored(STORAGE_KEYS.GALLERY, INITIAL_GALLERY);
-  }
-  if (!localStorage.getItem(STORAGE_KEYS.DENTIST)) {
-    setStored(STORAGE_KEYS.DENTIST, INITIAL_DENTIST);
   }
   if (!localStorage.getItem(STORAGE_KEYS.HOURS)) {
     setStored(STORAGE_KEYS.HOURS, INITIAL_HOURS);
@@ -149,7 +144,7 @@ export function deleteAppointment(id: string): Appointment[] {
 // Services API
 export function getServices(): DentalService[] {
   initializeStorage();
-  return getStored<DentalService[]>(STORAGE_KEYS.SERVICES, INITIAL_SERVICES);
+  return INITIAL_SERVICES;
 }
 
 export function updateServices(services: DentalService[]): void {
@@ -159,7 +154,7 @@ export function updateServices(services: DentalService[]): void {
 // Gallery API
 export function getGallery(): GalleryItem[] {
   initializeStorage();
-  return getStored<GalleryItem[]>(STORAGE_KEYS.GALLERY, INITIAL_GALLERY);
+  return INITIAL_GALLERY;
 }
 
 export function updateGallery(items: GalleryItem[]): void {
@@ -169,7 +164,7 @@ export function updateGallery(items: GalleryItem[]): void {
 // Dentist API
 export function getDentist(): DentistProfile {
   initializeStorage();
-  return getStored<DentistProfile>(STORAGE_KEYS.DENTIST, INITIAL_DENTIST);
+  return INITIAL_DENTIST;
 }
 
 export function updateDentist(dentist: DentistProfile): void {

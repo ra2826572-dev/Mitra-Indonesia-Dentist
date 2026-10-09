@@ -15,6 +15,7 @@ app.use(express.json());
 
 // Robust static file serving for images and public assets
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
+app.use('/src/assets/images', express.static(path.join(__dirname, 'public/images')));
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Ensure data folder and file exists
@@ -228,7 +229,10 @@ async function startServer() {
     app.use(vite.middlewares);
   } else {
     // Serve static in production
+    app.use('/images', express.static(path.join(__dirname, 'public/images')));
+    app.use('/src/assets/images', express.static(path.join(__dirname, 'public/images')));
     app.use(express.static(path.join(__dirname, 'dist')));
+    app.use(express.static(path.join(__dirname, 'public')));
     app.get('*', (_req: Request, res: Response) => {
       res.sendFile(path.join(__dirname, 'dist', 'index.html'));
     });
